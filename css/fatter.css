@@ -1,0 +1,361 @@
+/*Student name:Jianglian Ni,Raiyan Yasawy*/
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.registationBody
+{
+    background-image: url("../img/background.png");;
+}
+.homeTemplate
+{
+    margin: 0 auto; 
+    max-width: 80%;
+    min-width: 400px;
+    padding:30px;
+}
+.template
+{
+    background-color: white;
+    margin: 0 auto; 
+    margin-top:20%;
+    border-radius: 15px;
+    max-width: 40%;
+    min-width: 400px;
+    padding:30px;
+}
+h1
+{
+    font-size: xx-large;
+    margin:30px 60px 30px 60px;
+}
+input
+{
+    height:40px;
+    width:100%;
+    border-color: #ffffff;
+    border-radius: 8px;
+    border-style: ridge;
+    padding:10px;
+}
+.buttons
+{
+    margin-top:60px;
+    border-radius: 30px;
+}
+.textfield
+{
+    margin: 20px 60px 20px 60px;
+}
+
+.submit
+{
+    height: 60px;
+    width: 80%;
+    border-radius: 30px;
+    margin-left: 50px;
+    border-color: #2d2727;
+    background-color: #968f8f;
+    color:white;
+    font-size: large;
+    border-style: ridge;
+}
+
+textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-size:larger;
+    opacity: 1; /* Firefox */
+    margin-left: 10px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* Style the header */
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+.section1
+{
+    float: left;
+    width: 20%;
+    padding: 20px;
+}
+nav
+{
+
+    width: 18%;
+    padding: 20px;
+    height: 60vh;
+}
+.line
+{
+    background: rgb(235, 234, 234);
+}
+a
+{
+    text-decoration: none;
+    color: black;
+    margin-left:10px;
+}
+/* Style the list inside the menu */
+nav ul 
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li
+{
+    padding: 20px 0px 20px 0px;
+    font-size:larger;
+    width:150px;
+    border-radius: 40px;
+    text-align: left;
+}
+li:hover 
+{
+  background-color: rgb(232, 228, 228);
+}
+.navRight
+{
+    float: right;
+    width: 30%;
+    padding: 20px;
+}
+
+article {
+    float: left;
+    padding: 0px 20px 20px 20px;
+    width: 50%;
+    border-color: #f4f4f4;
+    border-width:1pt;
+    border-style: inherit;
+}
+
+/* Clear floats after the columns */
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+}
+}
+
+.message
+{
+    display: flex;
+    flex-direction: row;
+
+}
+.follow
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:20px 0px 20px 0px;
+    padding:10px;
+}
+
+.icon
+{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin:10px;
+}
+.logo
+{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0px 20px 0px 20px;
+}
+.followIcon
+{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left:20px;
+}
+.pic
+{
+    max-width: 100%;
+    min-width: 20px;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+
+#search
+{
+    background-color: rgb(248, 253, 249);
+    border-radius: 30px;
+    border-style:ridge;
+    border-color: #968f8f;
+}
+
+.light
+{
+  font-size: small;
+  color: grey;
+}
+.followSide
+{
+    background-color:  #e8ebea;
+    border-radius: 30px;
+    width:100%;
+    padding:5px;
+    margin-top:20px;
+}
+.follower
+{
+    width:60%;
+    margin-left: 10px;
+}
+
+.follerTitle
+{
+    margin:20px;
+}
+
+#followButton
+{
+    width: 80px;
+    background-color:black;
+    color:white;
+    border-radius: 20px;
+    border-width: 1pt;
+    font-weight: 800;
+    padding:10px 15px 10px 15px;
+    margin-top:5px;
+}
+
+.fatterButton
+{
+    width: 80px;
+    background-color: rgb(152, 199, 249);
+    font-weight: 800;
+    color:white;
+    float: right;
+    border-radius: 30px;
+    border-width: 1pt;
+}
+.file
+{
+    width:50%;
+    margin:5px 0px 5px 0px;
+}
+
+textarea
+{
+    border: 0cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+}      
+
+.footerTemplate
+{
+    background-color: rgb(86, 164, 247);
+    width:100%;
+    margin: 0 auto; 
+    height:100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+.footerTemplate h1
+{
+    color:white;
+}
+.footerTemplate span
+{
+    color:white;
+}
+.login
+{
+    color:white;
+    border-color: #ffffff;
+    border-style: groove;
+    border-radius: 20px;
+    padding:10px;
+    width: 80px;
+    border-width: 1pt;
+    font-weight: 800;
+}
+
+.registration
+{
+    color:black;
+    background-color: white;
+    border-radius: 20px;
+    padding:10px;
+    width: 80px;
+    font-weight: 800;
+}
+.footerButtons
+{
+    margin-top:20px;
+
+}
+
+.verify
+{
+    width: 18px;
+}
+
+.nav
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.nav li 
+{
+  float: left;
+  cursor:pointer;
+}
+
+.nav li a 
+{
+  display: block;
+  color: rgb(1, 1, 1);
+  text-align: center;
+  padding: 15px;
+  margin-left:5px;
+  text-decoration: none;
+}
+
+.filter
+{
+    padding:10px;
+}
+
+.delete
+{
+    color:rgb(48, 48, 248);
+    float:right;
+}
+
+hr
+{
+    height:1px;
+    border:none;
+    background-color:rgb(231, 231, 231);
+}
