@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Maha Fouda">
+        <meta name=" desctription " content=" registration page of assignment2 ">
+        <link rel="stylesheet" type="text/css" href="css/login.css?id=3">
+        <script src="js/registration.js?id=1" defer></script>
+        <title>Registration</title>
+    </head>
+    <body class="registationBody">
+    <div class="template">
+        <form action="Registration.php" method="post" onsubmit="return validate();">
+            <h1>Create your account</h1>
+            <div id="textfield1" class="textfield">
+                <input type="text" name="name" id="name" placeholder="Name">
+            </div>
+
+            <div id="textfield2" class="textfield">
+                <input type="text" name="username" id="username" placeholder="Username">
+            </div>
+
+            <div class="textfield" id="loginDiv1">
+                <input type="text" name="email" id="email" placeholder="Email">
+            </div>
+
+            <div class="textfield" id="loginDiv2">
+                <input type="text" name="phone" id="phone" placeholder="Phone">
+            </div>
+
+            <div class="textfield" id="loginDiv3">
+                <input type="password" name="password" id="password" placeholder="Enter your password">
+            </div>
+            <div class="textfield" id="loginDiv4">
+                <input type="password" name="password2" id="password2" placeholder="Enter your password one more time">
+            </div>
+
+            <div class="buttons">
+                <button class="submit" type="submit">Next</button>
+            </div>
+        </form>
+    </div>
+</html>
